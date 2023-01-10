@@ -1,0 +1,20 @@
+Input Format
+The first and only line contains the integer, .
+Output Format
+Print  lines, one corresponding to each .
+EXAMPLE :
+input : 5 
+output: 
+0
+1
+4
+9
+16
+
+CODE:
+
+if __name__ == '__main__':
+    n = int(input())
+    for n in range(n):
+        print(n*n)
+
